@@ -1,1 +1,44 @@
-# Markdown-by-Alex
+# Guia Markdown
+
+## Encabezados
+# Encabezado 1
+## Encabezado 2
+### Encabezado 3
+#### Encabezado 4
+##### Encabezado 5
+###### Encabezado 6
+
+## Citas
+  > Esto es una cita simple.
+  >> Otra cita de ejemplo.
+
+## Negritas y cursivas
+
+**Esto es un texto en negrita**
+
+*Esto es un texto en cursiva*
+
+***Esto es negrita y cursiva***
+
+## Enlaces
+[Aules](https://aules.edu.gva.es)
+
+[Enlace directo a Aules](https://aules.edu.gva.es)
+
+## Imágenes
+![Markdown](https://markdown.es/wp-content/uploads/2015/08/Guia-Markdown-en-espanol.jpg)
+
+## Código
+
+Para mostrar código en Markdown, usa tres comillas invertidas antes y después del bloque. Ejemplo:
+```python
+print("Hola, mundo!")
+```
+
+También puedes poner código en línea usando comillas invertidas: `print("Hola")`
+
+## Anular Markdown
+
+Para mostrar caracteres especiales sin que se interpreten como formato Markdown, usa el carácter de escape `\`.
+
+Ejemplo: \*Esto no será cursiva\*
